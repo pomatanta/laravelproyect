@@ -133,7 +133,7 @@
                                                             <input id="imgInp" class="btn btn-primary" type="file" name="poster" >
                                                         </div>
                                                         <small>For best results, use an image at least 128px by 128px in .jpg
-                                                        format</small>
+                                                        formato</small>
                                                         @if ($errors->has('poster'))
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $errors->first('poster') }}</strong>
